@@ -30,7 +30,7 @@ function microsecsDiff( $pMicrosecs ): string {
 // Do Stuff
 ```
 
-### Javascript with PHP End Time
+### Javascript with PHP Total Time
 
 ```javascript
 window.phpExecutionTime = '<?= \xan\microsecsDiff( $xanTimeBegin ); ?>';
