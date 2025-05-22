@@ -1,4 +1,4 @@
-# js-navTimeingAPI
+# js-navTimingAPI
 
 ### Summary
 
