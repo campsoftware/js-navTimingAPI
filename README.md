@@ -18,7 +18,19 @@ Logs to console.log detailed timing metrics related to the navigation and load o
 [Log]     0.9510s Client Render (F30BB9DD-DE9A-4F13-91B1-79BA4A776585, line 4011)
 ```
 
-### Javascript
+### PHP Init Begin Time
+
+```php
+$xanTimeBegin = \microtime( true );
+
+function microsecsDiff( $pMicrosecs ): string {
+	return \round( ( \xan\microsecsNow() - $pMicrosecs ), 4 ) . "s";
+}
+
+// Do Stuff
+```
+
+### Javascript with PHP End Time
 
 ```javascript
 window.phpExecutionTime = '<?= \xan\microsecsDiff( $xanTimeBegin ); ?>';
