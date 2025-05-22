@@ -7,15 +7,15 @@ Logs to console.log detailed timing metrics related to the navigation and load o
 ### console.log
 
 ```javascript
-[Log] 1.8330s Total Time (F30BB9DD-DE9A-4F13-91B1-79BA4A776585, line 4003)
-[Log]     0.1270s DNS Lookup (F30BB9DD-DE9A-4F13-91B1-79BA4A776585, line 4004)
-[Log]     0.1020s TCP Connection (F30BB9DD-DE9A-4F13-91B1-79BA4A776585, line 4005)
-[Log]     0.0550s TLS Handshake (F30BB9DD-DE9A-4F13-91B1-79BA4A776585, line 4006)
-[Log]     0.6040s Server Total (F30BB9DD-DE9A-4F13-91B1-79BA4A776585, line 4007)
-[Log]         0.3066s Nginx, etc: (F30BB9DD-DE9A-4F13-91B1-79BA4A776585, line 4008)
-[Log]         0.2974s Xanadu (F30BB9DD-DE9A-4F13-91B1-79BA4A776585, line 4009)
-[Log]     0.0480s Content Download (F30BB9DD-DE9A-4F13-91B1-79BA4A776585, line 4010)
-[Log]     0.9510s Client Render (F30BB9DD-DE9A-4F13-91B1-79BA4A776585, line 4011)
+[Log] 1.8330s Total Time
+[Log]     0.1270s DNS Lookup
+[Log]     0.1020s TCP Connection
+[Log]     0.0550s TLS Handshake
+[Log]     0.6040s Server Total
+[Log]         0.3066s Nginx, DNS, etc
+[Log]         0.2974s PHP
+[Log]     0.0480s Content Download
+[Log]     0.9510s Client Render
 ```
 
 ### PHP Init Begin Time
