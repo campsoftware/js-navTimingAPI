@@ -6,7 +6,7 @@ Logs to console.log detailed timing metrics related to the navigation and load o
 
 ### console.log
 
-```javascript
+```text
 [Log] 1.8330s Total Time
 [Log]     0.1270s DNS Lookup
 [Log]     0.1020s TCP Connection
