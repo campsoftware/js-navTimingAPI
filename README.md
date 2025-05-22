@@ -62,8 +62,8 @@ window.addEventListener('load', () => {
         console.log(`    ${tcpConnectTime} TCP Connection`);
         console.log(`    ${tlsHandshakeTime} TLS Handshake`);
         console.log(`    ${serverSideExecutionTime} Server Total`);
-        console.log(`        ${serverOverheadTimeSecs} Nginx, etc:`);
-        console.log(`        ` + window.phpExecutionTime + ` Xanadu`);
+        console.log(`        ${serverOverheadTimeSecs} Nginx, DNS, etc:`);
+        console.log(`        ` + window.phpExecutionTime + ` PHP`);
         console.log(`    ${contentDownloadTime} Content Download`);
         console.log(`    ${clientSideProcessingTime} Client Render`);
 
